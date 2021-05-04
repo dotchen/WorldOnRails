@@ -2,7 +2,7 @@
 
 We release the dataset with which we trained our leaderboard submission. 
 This dataset is converted from the original `lmdb` format.
-The compressed files in `.tar.gz` are `92.2GB` in total.
+The compressed files in `.tar.gz` are `86.3GB` in total.
 
 If you find our dataset to be useful, please cite us as
 ```
