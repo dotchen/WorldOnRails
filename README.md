@@ -1,7 +1,7 @@
 # World on Rails
 
 ![teaser](assets/teaser.jpg)
-> [**Learning by drive from a world on rails**](https://dotchen.github.io/world_on_rails/)    
+> [**Learning to drive from a world on rails**](https://dotchen.github.io/world_on_rails/)    
 > Dian Chen, Vladlen Koltun, Philipp Kr&auml;henb&uuml;hl,        
 > _arXiv techical report ([arXiv 2105.00636](https://arxiv.org/abs/2105.00636))_
 
