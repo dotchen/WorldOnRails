@@ -1,0 +1,29 @@
+name: world_on_rails
+channels:
+  - pytorch
+  - anaconda
+  - defaults
+dependencies:
+  - cudatoolkit>=10.1
+  - pip>=21.0
+  - python=3.7.9
+  - pytorch>=1.4.0
+  - pip:
+    - dictor
+    - lmdb
+    - tqdm
+    - matplotlib
+    - moviepy
+    - imageio
+    - imageio-ffmpeg
+    - imgaug
+    - requests
+    - opencv-python
+    - pyyaml
+    - py_trees==0.8.3
+    - ray==1.1.0
+    - shapely
+    - tabulate
+    - six
+    - wandb
+    - xmlschema
