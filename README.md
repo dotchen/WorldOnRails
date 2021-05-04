@@ -7,7 +7,7 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-to-drive-from-a-world-on-rails/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=learning-to-drive-from-a-world-on-rails)
 
-This repo contains code for our paper [Learning by drive from a world on rails](https://arxiv.org/abs/2105.00636).
+This repo contains code for our paper [Learning to drive from a world on rails](https://arxiv.org/abs/2105.00636).
 
 ProcGen code coming soon.
 
