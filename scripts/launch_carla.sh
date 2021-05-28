@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for (( i=1; i<=$2; i++ ))
+for (( i=1; i<=$1; i++ ))
 do
-    port=$((i*$3))
+    port=$((i*$2))
     fuser $port/tcp -k
     fuser $((port + 1))/tcp -k
     fuser $((port + 2))/tcp -k
