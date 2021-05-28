@@ -2,7 +2,7 @@ import ray
 import time
 import tqdm
 import torch
-from .rails import WORActionLabeler
+from .rails import RAILSActionLabeler
 from .datasets.main_dataset import RemoteMainDataset
 from .logger import RemoteLogger
 
@@ -14,7 +14,7 @@ def main(args):
 
     jobs = []
     for worker_id in range(args.num_workers):
-        labeler = WORActionLabeler.remote(args, dataset, worker_id=worker_id, total_worker=args.num_workers)
+        labeler = RAILSActionLabeler.remote(args, dataset, worker_id=worker_id, total_worker=args.num_workers)
         jobs.append(labeler.run.remote(logger))
 
     frames = 0
