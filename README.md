@@ -36,7 +36,7 @@ If you find our repo or paper useful, please cite us as
 
 ## Evaluation
 
-If you evaluating the pretrained weights, make sure you are launching CARLA with `-vulkan`!
+**If you evaluating the pretrained weights, make sure you are launching CARLA with `-vulkan`!**
 
 ### Leaderboard routes
 ```bash
