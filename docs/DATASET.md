@@ -15,7 +15,7 @@ If you find our dataset to be useful, please cite us as
 ```
 
 ## Download
-[Download here](https://utexas.box.com/s/gpfksee2tm3p6kz4ogvigid7fbx9tv7e)
+[Download here](https://utexas.box.com/s/42b2ck41645sig2dkeyjdqfx5hp82ceb)
 
 ## Images and labels
 The dataset consists of 1M simulator frames. 
