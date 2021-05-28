@@ -204,7 +204,7 @@ class ImageAgent(AutonomousAgent):
         # elif throt < 0.1 and brake_prob > 0.3:
         #     brake = 1
 
-        if spd > {0:10,1:10}.get(cmd, 15)/3.6: # 10 km/h for turning, 15km/h elsewhere
+        if spd > {0:10,1:10}.get(cmd, 20)/3.6: # 10 km/h for turning, 15km/h elsewhere
             throt = 0
 
         # if cmd == 2:
