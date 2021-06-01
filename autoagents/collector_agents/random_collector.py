@@ -148,7 +148,7 @@ class RandomCollector(AutonomousAgent):
             self.acts.append(act)
 
             if self.log_wandb:
-                self.rgbs.append(visualize_obs(rgb[...,:3], act, spd))
+                self.rgbs.append(visualize_obs(rgb[...,:3], rot[-1], act, spd))
         
         control = carla.VehicleControl(steer=steer, throttle=throt, brake=brake)
         
