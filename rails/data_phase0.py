@@ -13,7 +13,7 @@ def main(args):
     for i in range(args.num_runners):
         port = (i+1) * args.port
         tm_port = port + 2
-        runner = ScenarioRunner.remote(args, scenario_class='route_scenario', scenario, route, port=port, tm_port=tm_port)
+        runner = ScenarioRunner.remote(args, 'route_scenario', scenario, route, port=port, tm_port=tm_port)
         jobs.append(runner.run.remote())
     
     ray.wait(jobs, num_returns=args.num_runners)
