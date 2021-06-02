@@ -12,6 +12,7 @@ This doc provides instructions to get started.
 conda env create -f environment.yaml
 ```
 * Inside the conda environment, install the CARLA PythonAPI `easy_install [PATH TO CARLA EGG]`. Refer to [this link](https://leaderboard.carla.org/get_started/) if you are confused at this step.
+* Setup [wandb](https://docs.wandb.ai/quickstart)
 
 ## Configure environment variables
 
