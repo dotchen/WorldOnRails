@@ -126,7 +126,7 @@ class RAILS:
         pred_loc = locs[:,0]
         pred_yaw = yaws[:,0]
         pred_spd = spds[:,0]
-        for t in range(self.ego_traj_len-1):
+        for t in range(locs.shape[1]-1):
             act = acts[:,t]
             
             pred_loc, pred_yaw, pred_spd = self.ego_model(pred_loc, pred_yaw, pred_spd, act)
