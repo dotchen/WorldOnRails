@@ -1,6 +1,8 @@
 # FAQ
 
-Please read this doc before creating any issues.
+**Please read this doc before creating any issues.**
+
+**Please don't spam the GitHub issue section.**
 
 ## CARLA
 Please **DO NOT** create any issues if you encounter any problems or bugs running CARLA, with **one exception** listed below. 
