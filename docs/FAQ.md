@@ -23,6 +23,10 @@ The best chance of quicky fixing these problems is usually through [Google](http
 
 ## Dataset
 
+**Q: I see error: `TypeError: must be real number, not NoneType` while collecting dataset.**
+
+**A**: reinstall `moviepy`, `imageio`, `wandb`
+
 **Q: Why the data loader cannot read your public dataset?**
 
 **A**: We reformatted our dataset for release. If you would like to train a leaderboard model using our dataste, you need to write a custom data loader.
