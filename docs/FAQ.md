@@ -21,6 +21,12 @@ from source with Unreal 4.25, with this [patch](https://github.com/carla-simulat
 
 The best chance of quicky fixing these problems is usually through [Google](https://www.google.com/) or [Stack Overflow](https://stackoverflow.com/).
 
+## Training
+
+**Q: Why is phase2 loss different from what is described in the paper?**
+
+**A**: They are mathematically equivalent. See [here](https://github.com/dotchen/WorldOnRails/issues/17#issuecomment-868044575).
+
 ## Dataset
 
 **Q: I see error: `TypeError: must be real number, not NoneType` while collecting dataset.**
