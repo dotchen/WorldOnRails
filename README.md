@@ -13,11 +13,11 @@ ProcGen code coming soon.
 
 ## Reference
 If you find our repo or paper useful, please cite us as
-```
+```bibtex
 @inproceedings{chen2021learning,
   title={Learning to drive from a world on rails},
   author={Chen, Dian and Koltun, Vladlen and Kr{\"a}henb{\"u}hl, Philipp},
-  booktitle={arXiv preprint arXiv:2105.00636},
+  booktitle={ICCV},
   year={2021}
 }
 ```
