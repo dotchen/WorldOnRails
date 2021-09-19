@@ -2,7 +2,6 @@
 
 We release the dataset with which we trained our leaderboard submission. 
 This dataset is converted from the original `lmdb` format.
-The compressed files in `.tar.gz` are `86.3GB` in total.
 
 If you find our dataset to be useful, please cite us as
 ```
@@ -15,7 +14,7 @@ If you find our dataset to be useful, please cite us as
 ```
 
 ## Download
-[Download here](https://utexas.box.com/s/42b2ck41645sig2dkeyjdqfx5hp82ceb)
+[Download here](https://utexas.box.com/s/vuf439jafqvi8u4rc37sdx9xvbrn59z2)
 
 ## Images and labels
 The dataset consists of 1M simulator frames. 
@@ -63,6 +62,10 @@ where `{d}` is the channel number. If corresponds to
 5: red light trigger box
 6+:lane centers
 ```
+
+### Labeled Actions
+The pre-labeled Q values are stoded in `data.json` files as a flattened list.
+Its original shape is `num_cmds x num_actions x num_speeds`.
 
 ### FAQ
 **Q**: Why are the images distorted?
