@@ -23,6 +23,7 @@ If you find our repo or paper useful, please cite us as
 ```
 
 ## Updates
+* We have released the pre-computed Q values in our dataset! Check [DATASET.md](docs/DATASET.md) for details.
 * Checkout our [website](https://dotchen.github.io/world_on_rails/) for demo videos!
 
 ## Getting Started
