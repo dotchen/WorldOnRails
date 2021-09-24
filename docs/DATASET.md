@@ -8,7 +8,7 @@ If you find our dataset to be useful, please cite us as
 @inproceedings{chen2021learning,
   title={Learning to drive from a world on rails},
   author={Chen, Dian and Koltun, Vladlen and Kr{\"a}henb{\"u}hl, Philipp},
-  booktitle={arXiv preprint},
+  booktitle={ICCV},
   year={2021}
 }
 ```
