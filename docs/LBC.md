@@ -6,7 +6,7 @@ If you find this to be useful, please also cite:
 
 ```
 @inproceedings{chen2019lbc,
-  author    = {Dian Chen and Brady Zhou and Vladlen Koltun and Philipp Kr\"ahenb\"uhl},
+  author    = {Chen, Dian and Zhou, Brady and Koltun, Vladlen and Kr\"ahenb\"uhl, Philipp},
   title     = {Learning by Cheating},
   booktitle = {Conference on Robot Learning (CoRL)},
   year      = {2019},
