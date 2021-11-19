@@ -10,7 +10,7 @@ For everything else, please consider posting to the great [CARLA community](http
 
 **Q: I cannot run CARLA 0.9.10.1 with vulkan headlessly**
 
-**A**: This is a known issue of Unreal 4.24. The solution is to build CARKA 
+**A**: This is a known issue of Unreal 4.24. The solution is to build CARLA 
 from source with Unreal 4.25, with this [patch](https://github.com/carla-simulator/carla/issues/3214#issuecomment-769140155).
 
 ## Install
