@@ -101,20 +101,17 @@ class CameraModel(nn.Module):
         # Action logits
         if self.all_speeds:
             act_output = self.act_head(embed).view(-1,self.num_cmds,self.num_speeds,self.num_steers+self.num_throts+1)
-            act_output = action_logits(act_output, self.num_steers, self.num_throts)
-            
             # Action logits
             steer_logits = act_output[0,cmd,:,:self.num_steers]
             throt_logits = act_output[0,cmd,:,self.num_steers:self.num_steers+self.num_throts]
             brake_logits = act_output[0,cmd,:,-1]
         else:
             act_output = self.act_head(torch.cat([embed, self.spd_encoder(spd[:,None])], dim=1)).view(-1,self.num_cmds,1,self.num_steers+self.num_throts+1)
-            act_output = action_logits(act_output, self.num_steers, self.num_throts).squeeze(2)
             
             # Action logits
-            steer_logits = act_output[0,cmd,:self.num_steers]
-            throt_logits = act_output[0,cmd,self.num_steers:self.num_steers+self.num_throts]
-            brake_logits = act_output[0,cmd,-1]
+            steer_logits = act_output[0,cmd,0,:self.num_steers]
+            throt_logits = act_output[0,cmd,0,self.num_steers:self.num_steers+self.num_throts]
+            brake_logits = act_output[0,cmd,0,-1]
 
         return steer_logits, throt_logits, brake_logits
 
